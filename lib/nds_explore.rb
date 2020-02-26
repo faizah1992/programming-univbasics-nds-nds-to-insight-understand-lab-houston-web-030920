@@ -16,5 +16,5 @@ while row_index<movies.count do
   string+=movies[row_index][:title] + "\n"
   row_index+=1
 end
-string
+puts string
 end
