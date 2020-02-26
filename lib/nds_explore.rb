@@ -14,6 +14,8 @@ movies= directors_database[0][:movies]
 row_index=0 
 string=""
 while row_index<movies.count do
+  string+=movies[row_index][:title]+'\n'
+  row_index+=log10
   
   
   
